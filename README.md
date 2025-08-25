@@ -70,12 +70,9 @@ npm run build
 ## 📸 Screenshots
 
 ### Dashboard UI
-
-![Dashboard Screenshot](./assets/dashboard-1.png)
-
 ### Weather & Music Integration
 
-![Weather and Music](./assets/dashboard-2.png)
+![Dashboard Screenshot](./src/assets/dashboard1.png)
 
 ---
 
