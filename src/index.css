@@ -3,3 +3,7 @@
 @theme{
     --font-poppins: 'poppins', sans-serif;
 }
+
+.gridCards{
+    @apply bg-[#ffffff70] backdrop-blur-lg;
+}
