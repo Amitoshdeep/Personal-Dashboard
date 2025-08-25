@@ -39,7 +39,7 @@ function G5Pic() {
   const embedUrl = getEmbedUrl(ytLink);
 
   return (
-    <div className="bg-white rounded-4xl w-full h-full flex items-center justify-center overflow-hidden">
+    <div className="bg-white rounded-4xl w-full h-full flex items-center justify-center overflow-hidden p-4">
       {embedUrl ? (
         <iframe
           width="100%"
@@ -48,6 +48,7 @@ function G5Pic() {
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          className="rounded-2xl"
         ></iframe>
       ) : (
         <p className="text-gray-500">No YouTube link saved</p>
