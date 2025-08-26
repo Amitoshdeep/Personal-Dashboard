@@ -26,9 +26,16 @@ function WeatherWidget() {
       } catch (err) {
         console.error("Error fetching weather:", err);
       }
+      
     };
 
     fetchWeather();
+
+    //Every 10 mins refreash
+    const interval = setInterval(fetchWeather, 10*  60 * 1000);
+    
+    return()=> clearInterval(interval);
+
   }, [city]);
 
   if (!weather) return <p>Loading weather...</p>;

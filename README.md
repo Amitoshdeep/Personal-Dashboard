@@ -43,7 +43,7 @@ This project integrates weather info, music (Spotify/YouTube), and personal widg
 ### 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/dashboard.git
+git clone https://github.com/Amitoshdeep/Personal-Dashboard.git
 cd dashboard
 ```
 
