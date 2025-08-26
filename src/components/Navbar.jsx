@@ -52,7 +52,7 @@ function Navbar() {
 
       {/* Overlay */}
       <div
-        className={`z-30 bg-[#00000060] top-0 left-0 h-full w-full ${
+        className={`overlay ${
           settings ? 'hidden' : 'fixed'
         }`}
       ></div>

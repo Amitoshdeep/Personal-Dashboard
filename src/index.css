@@ -17,9 +17,13 @@
 }
 
 .qCards{
-    @apply flex flex-col h-full w-full items-center justify-center;
+    @apply flex flex-col h-full w-full items-center justify-center cursor-pointer;
 }
 
 .qCards i{
     @apply bg-white h-full w-full flex items-center justify-center rounded-2xl;
+}
+
+.overlay{
+    @apply z-30 bg-[#00000060] top-0 left-0 h-full w-full ;
 }
