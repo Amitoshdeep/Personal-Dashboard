@@ -4,6 +4,14 @@
     --font-poppins: 'poppins', sans-serif;
 }
 
-.gridCards{
+.gridCards, .quickCards{
     @apply bg-[#ffffff70] backdrop-blur-lg;
+}
+
+.quickCards{
+    @apply rounded-4xl grid gap-2 w-full h-full p-4 items-center justify-center;
+}
+
+.gridCards{
+    @apply   rounded-4xl w-full h-full flex items-center justify-center overflow-hidden;
 }

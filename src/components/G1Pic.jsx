@@ -2,7 +2,8 @@ import React from 'react'
 
 function G1Pic() {
   return (
-    <div className="gridCards  rounded-4xl w-full h-full flex items-center justify-center overflow-hidden ">
+    // IMAGE GRID 1
+    <div className="gridCards ">
         
         <img src="/FragnentFlower.jpg" alt="" className='object-cover w-full h-full' />
 

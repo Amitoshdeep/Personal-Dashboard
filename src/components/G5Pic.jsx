@@ -39,7 +39,7 @@ function G5Pic() {
   const embedUrl = getEmbedUrl(ytLink);
 
   return (
-    <div className="gridCards  rounded-4xl w-full h-full flex items-center justify-center overflow-hidden p-4">
+    <div className="gridCards p-4">
       {embedUrl ? (
         <iframe
           width="100%"
