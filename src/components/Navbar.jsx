@@ -115,7 +115,7 @@ function Navbar() {
               placeholder= "Enter yt playlist ID"
               className= "px-2 py-2 w-full outline-0"
               />
-            <div className='px-3 py-2 bg-white rounded-xl font-bold w-[90px]'>
+            <div className='px-3 py-2 bg-white rounded-xl font-bold w-[100px]'>
               <p>Yt-Link</p>
             </div>
           </div>

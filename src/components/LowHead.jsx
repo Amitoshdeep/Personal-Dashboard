@@ -15,7 +15,7 @@ function LowHead() {
         };
 
         refreshName(); // run immediately
-        const interval = setInterval(refreshName, 1000); // every 10 mins
+        const interval = setInterval(refreshName, 1000); // every sec
 
         return () => clearInterval(interval);
     }, []);
